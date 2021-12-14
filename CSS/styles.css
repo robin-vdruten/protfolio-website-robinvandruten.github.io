@@ -230,14 +230,14 @@ h4 {
 .mobile-toggle {
   width: 24px;
   height: 17px;
-  background: url(/images/_burger_dark.svg);
+  background: url(../images/_burger_dark.svg);
   cursor: pointer;
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 body.nav-open .mobile-toggle {
-  background-image: url(/images/_close_dark.svg);
+  background-image: url(../images/_close_dark.svg);
 }
 
 /* mobile-nav------------------------------ */
@@ -405,7 +405,7 @@ body.landing-page {
   }
   .landing-page {
     height: 100vh;
-    background: url(/images/splash_mobile.jpg);
+    background: url(../images/splash_mobile.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
