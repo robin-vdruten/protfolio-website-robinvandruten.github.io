@@ -283,10 +283,6 @@ h4 {
   background-size: contain;
 }
 
-body.nav-open .mobile-toggle {
-  background-image: url(../Images/_close_dark.svg?random);
-}
-
 /* mobile-nav------------------------------ */
 
 .mobile-nav {
