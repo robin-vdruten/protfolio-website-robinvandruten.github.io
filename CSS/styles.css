@@ -405,7 +405,7 @@ body.landing-page {
   }
   .landing-page {
     height: 100vh;
-    background: url(/Images/_home/splash_mobile.jpg);
+    background: url(/Images/splash_mobile.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
