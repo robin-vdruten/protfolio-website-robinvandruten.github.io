@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 17"
+	 style="enable-background:new 0 0 24 17;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#E6E6E6;}
+</style>
+<desc>Created with Sketch.</desc>
+<g id="Page-1" sketch:type="MSPage">
+	<g id="burger" sketch:type="MSLayerGroup">
+		<g id="Shape-_x2B_-Shape-_x2B_-Shape" sketch:type="MSShapeGroup">
+			<path id="Shape" class="st0" d="M0.5,1h23H24V0h-0.5h-23H0v1H0.5L0.5,1z"/>
+			<path id="Shape_1_" class="st0" d="M0.5,9h23H24V8h-0.5h-23H0v1H0.5L0.5,9z"/>
+			<path id="Shape_2_" class="st0" d="M0.5,17h23H24v-1h-0.5h-23H0v1H0.5L0.5,17z"/>
+		</g>
+	</g>
+</g>
+</svg>
