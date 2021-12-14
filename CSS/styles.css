@@ -28,6 +28,10 @@
   display: flex;
 }
 
+.con-end {
+  justify-content: flex-end;
+}
+
 .con-mid {
   justify-content: center;
 }
@@ -211,6 +215,50 @@ h4 {
   width: 80%;
 }
 
+/* -- burger ---------------------------- */
+
+.menu {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  padding: 0;
+}
+.line {
+  fill: none;
+  stroke: rgb(245, 245, 245);
+  stroke-width: 6;
+  transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+    stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.line1 {
+  stroke-dasharray: 60 207;
+  stroke-width: 6;
+}
+.line2 {
+  stroke-dasharray: 60 60;
+  stroke-width: 6;
+}
+.line3 {
+  stroke-dasharray: 60 207;
+  stroke-width: 6;
+}
+.opened .line1 {
+  stroke-dasharray: 90 207;
+  stroke-dashoffset: -134;
+  stroke-width: 6;
+}
+.opened .line2 {
+  stroke-dasharray: 1 60;
+  stroke-dashoffset: -30;
+  stroke-width: 6;
+}
+.opened .line3 {
+  stroke-dasharray: 90 207;
+  stroke-dashoffset: -134;
+  stroke-width: 6;
+}
+
 /*--- mobile-header---------------------- */
 
 .mobile-header {
@@ -228,16 +276,11 @@ h4 {
 }
 
 .mobile-toggle {
-  width: 24px;
-  height: 17px;
-  background: url(../images/_burger_dark.svg);
+  width: 40px;
+  height: 40px;
   cursor: pointer;
   background-repeat: no-repeat;
   background-size: contain;
-}
-
-body.nav-open .mobile-toggle {
-  background-image: url(../images/_close_dark.svg);
 }
 
 /* mobile-nav------------------------------ */
@@ -405,7 +448,7 @@ body.landing-page {
   }
   .landing-page {
     height: 100vh;
-    background: url(../images/splash_mobile.jpg);
+    background: url(/Images/splash_mobile.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
