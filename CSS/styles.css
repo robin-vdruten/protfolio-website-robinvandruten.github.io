@@ -234,7 +234,7 @@ h4 {
 .mobile-toggle {
   width: 24px;
   height: 17px;
-  background: url(../images/_burger_dark.svg);
+  background: url('../images/_burger_dark.svg');
   cursor: pointer;
   background-repeat: no-repeat;
   background-size: contain;
