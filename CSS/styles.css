@@ -241,7 +241,7 @@ h4 {
 }
 
 body.nav-open .mobile-toggle {
-  background-image: url(data:../Images/_burger_dark.svg+xml;base64,XXXXXX);
+  background-image: url(/Images/_close_dark.svg);
 }
 
 /* mobile-nav------------------------------ */
