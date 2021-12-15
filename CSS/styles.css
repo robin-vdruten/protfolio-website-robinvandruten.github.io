@@ -49,6 +49,14 @@ h4 {
   font-weight: 300;
 }
 
+p {
+  color:#e6e6e6;
+}
+
+.container {
+  width: 100%;
+}
+
 /* loader---------- */
 
 #loader-wrapper {
@@ -189,7 +197,7 @@ h4 {
 
 /* header/ footer----------------------------*/
 
-.container-nav {
+.container-nav, .container_footer {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -206,11 +214,54 @@ h4 {
   transition: all 0.15s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
+.two.columns {
+  width: 13%;
+}
+
+.three.columns {
+  width: 22%;
+}
+
+.four.columns {
+  transition: opacity .15 ease;
+  width: 30%
+}
+
+.superfooter {
+  margin-top: 4em;
+  margin-bottom: 2em;
+}
+
+.superfooter .text_desc {
+  color: #e6e6e6;
+  margin-bottom: 4em;
+  font-size: 1em;
+  line-height: 1.4em;
+  text-align: left;
+}
+
+.superfooter .text_desc_title {
+  color: #e6e6e6;
+  font-size: 0.8em;
+  letter-spacing: .1em;
+  line-height: 11.80px;
+  font-weight: 600;
+  margin-bottom: 0.8em;
+  text-transform: uppercase;
+  text-align: left;
+}
+
 .nav-rt {
   width: 40%;
 }
 
 .row {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.row-footer {
   display: flex;
   justify-content: space-between;
   width: 80%;
@@ -461,6 +512,89 @@ body.landing-page {
   .row {
     width: 90%;
   }
+
+  .superfooter .text_desc{
+    font-size: 1em;
+  }
 }
 
 /* About page ------*/
+
+.about {
+  height: 140vh;
+  background: #23074d;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #000000,#23074d, #cc5333);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #000000, #23074d, #cc5333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.row-main {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin-bottom: 4em;
+}
+
+.row-main .avatar {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  color: #bbb;
+}
+
+.row-main .avatar .image {
+  width: 100%;
+  height: 100%;
+  border: grey;
+  animation: morph 8s ease-in-out infinite 1s;
+  -webkit-box-shadow: inset 0px 0px 9px 6px #FFFFFF; 
+  box-shadow: inset 0px 0px 9px 6px #FFFFFF;
+}
+
+.super_about {
+  height: 80px;
+  color: #e6e6e6;
+  font-size: 2em;
+  line-height: 1em;
+  letter-spacing: -0.04em;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+@keyframes morph {
+  0% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+
+  50% {
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  }
+
+  100% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+}
+
+@media (min-width: 740px) {
+  .about {
+    height: 100%;
+  }
+
+  .header_about {
+    height: 100vh;
+  }
+}
+
+@media (max-width: 550px) {
+  .superfooter .text_desc {
+    font-size: 1.2em;
+  }
+
+  .row-footer {
+    display: block;
+  }
+
+  .two.columns,.three.columns,.four.columns {
+    width: 100%;
+  }
+}
+

@@ -27,9 +27,19 @@ document.addEventListener("DOMContentLoaded", function () {
 //page loader with jquery
 
 $(document).ready(function () {
-  setTimeout(function () {
-    $("body").addClass("loaded");
-  }, 700);
+  if(window.location.pathname === '/index.html') {
+    setTimeout(function () {
+      $("body").addClass("loaded");
+    }, 700);
+  }
+});
+
+$(document).ready(function () {
+  if(window.location.pathname === '/about.html') {
+    setTimeout(function () {
+      $("body").addClass("loaded");
+    }, 5);
+  }
 });
 
 // page loader
