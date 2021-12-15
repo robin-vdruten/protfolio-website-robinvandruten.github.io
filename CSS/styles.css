@@ -203,6 +203,7 @@ h4 {
 
 .columns {
   width: 30%;
+  transition: all 0.15s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
 .nav-rt {
