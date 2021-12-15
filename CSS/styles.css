@@ -17,7 +17,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  background-color: #e8e4e6;
+  background-color: #000000;
 }
 
 .porto {
@@ -224,6 +224,7 @@ h4 {
   display: flex;
   padding: 0;
 }
+
 .line {
   fill: none;
   stroke: rgb(245, 245, 245);
@@ -452,7 +453,7 @@ body.landing-page {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    background-color: #e8e4e6;
+    background-color: #000000;
   }
 
   .row {

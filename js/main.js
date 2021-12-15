@@ -11,6 +11,19 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
+// burgerToggle
+
+document.addEventListener("DOMContentLoaded", function () {
+  const menuBurger = document.querySelector(".menu");
+  const btnBurger = document.querySelector(".menu");
+  if (menuBurger) {
+    menuBurger.addEventListener("click", function () {
+      const burgerMenu = document.querySelector(".menu");
+      burgerMenu.classList.toggle("opened");
+    });
+  }
+});
+
 //page loader with jquery
 
 $(document).ready(function () {
