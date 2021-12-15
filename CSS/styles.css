@@ -335,6 +335,7 @@ h4 {
 
 .nav-rt li:hover {
   opacity: 0.25;
+  transition: opacity 0.2s linear;
 }
 
 body.nav-open {
