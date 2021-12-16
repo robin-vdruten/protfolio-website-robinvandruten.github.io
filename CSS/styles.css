@@ -53,7 +53,7 @@ h4 {
 }
 
 p {
-  color:#e6e6e6;
+  color: #e6e6e6;
 }
 
 strong {
@@ -204,7 +204,8 @@ strong {
 
 /* header/ footer----------------------------*/
 
-.container-nav, .container_footer {
+.container-nav,
+.container_footer {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -230,8 +231,8 @@ strong {
 }
 
 .four.columns {
-  transition: opacity .15 ease;
-  width: 31%
+  transition: opacity 0.15 ease;
+  width: 31%;
 }
 
 .superfooter {
@@ -250,8 +251,8 @@ strong {
 .superfooter .text_desc_title {
   color: #e6e6e6;
   font-size: 0.8em;
-  letter-spacing: .1em;
-  line-height: 11.80px;
+  letter-spacing: 0.1em;
+  line-height: 11.8px;
   font-weight: 600;
   margin-bottom: 0.8em;
   text-transform: uppercase;
@@ -294,10 +295,10 @@ strong {
   text-align: center;
   font-size: 50px;
   text-decoration: none;
-  transition: all .4s ease-in-out; 
+  transition: all 0.4s ease-in-out;
 }
 #back2Top:hover {
-  transform: rotate(270deg) scale(2);  
+  transform: rotate(270deg) scale(2);
   color: #000;
 }
 
@@ -504,8 +505,8 @@ body.landing-page {
 
 .about {
   height: 100%;
-  background-color: #000000;  
-  background: -webkit-linear-gradient(to bottom, #000000,#23074d, #cc5333); 
+  background-color: #000000;
+  background: -webkit-linear-gradient(to bottom, #000000, #23074d, #cc5333);
   background: linear-gradient(to bottom, #000000, #23074d, #cc5333);
 }
 
@@ -528,8 +529,8 @@ body.landing-page {
   height: 100%;
   border: grey;
   animation: morph 8s ease-in-out infinite 1s;
-  -webkit-box-shadow: inset 0px 0px 9px 6px #FFFFFF; 
-  box-shadow: inset 0px 0px 9px 6px #FFFFFF;
+  -webkit-box-shadow: inset 0px 0px 9px 6px #ffffff;
+  box-shadow: inset 0px 0px 9px 6px #ffffff;
 }
 
 .four.columns p {
@@ -650,7 +651,7 @@ body.landing-page {
     width: 90%;
   }
 
-  .superfooter .text_desc{
+  .superfooter .text_desc {
     font-size: 1em;
   }
 }
@@ -673,24 +674,26 @@ body.landing-page {
   }
 
   .row-footer {
-    display: block;
+    flex-direction: column;
   }
 
-  .two.columns,.three.columns,.four.columns {
+  .two.columns,
+  .three.columns,
+  .four.columns {
     width: 100%;
   }
 
   .row-main {
-    display: block;
+    flex-direction: column;
     width: 90%;
   }
 
   .flex-dis {
     display: flex;
+    flex-direction: unset;
   }
 
-  .contact-btn{
+  .contact-btn {
     width: 100%;
   }
 }
-
