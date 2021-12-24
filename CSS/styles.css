@@ -376,7 +376,7 @@ strong {
 .mobile-nav {
   width: 100vw;
   height: 100vh;
-  visibility: visible;
+  visibility: hidden;
   display: block;
   position: fixed;
 }
@@ -449,6 +449,7 @@ body.nav-open .columns {
 
 body.nav-open .mobile-nav {
   display: block;
+  visibility: visible;
 }
 
 body.nav-open .mobile-nav li {
