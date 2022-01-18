@@ -27,13 +27,13 @@ document.addEventListener("DOMContentLoaded", function () {
 //page loader with jquery
 
 $(document).ready(function () {
-    setTimeout(function () {
-      $("body").addClass("loaded");
-    }, 700);
+  setTimeout(function () {
+    $("body").addClass("loaded");
+  }, 700);
 });
 
 $(document).ready(function () {
-  if(window.location.pathname === '/about.html') {
+  if (window.location.pathname === "/about.html") {
     setTimeout(function () {
       $("body").addClass("loaded");
     }, 5);
@@ -110,18 +110,18 @@ window.onload = function () {
 
 // back to top with jquery
 
-$(window).scroll(function() {
+$(window).scroll(function () {
   var height = $(window).scrollTop();
   if (height > 100) {
-      $('#back2Top').fadeIn();
+    $("#back2Top").fadeIn();
   } else {
-      $('#back2Top').fadeOut();
+    $("#back2Top").fadeOut();
   }
 });
-$(document).ready(function() {
-  $("#back2Top").click(function(event) {
-      event.preventDefault();
-      $("html, body").animate({ scrollTop: 0 }, "slow");
-      return false;
+$(document).ready(function () {
+  $("#back2Top").click(function (event) {
+    event.preventDefault();
+    $("html, body").animate({ scrollTop: 0 }, "slow");
+    return false;
   });
 });
