@@ -534,6 +534,11 @@ body.landing-page {
   box-shadow: inset 0px 0px 9px 6px #ffffff;
 }
 
+.row-main .avatar .github {
+  background-image: url(/Images/MicrosoftTeams-image.png);
+  background-size: 100% 100%;
+}
+
 .four.columns p {
   margin-bottom: 2em;
 }
@@ -591,6 +596,21 @@ body.landing-page {
   border: 1px solid rgb(255, 255, 255);
 }
 
+/* Github page ------*/
+
+.github {
+  height: 100vh;
+  background-color: #000000;
+  background: -webkit-linear-gradient(to bottom, #000000, #23074d, #b4b4b4);
+  background: linear-gradient(to bottom, #000000, #23074d, #8f8f8f);
+}
+
+.github-photo {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+
 @keyframes morph {
   0% {
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
@@ -640,7 +660,6 @@ body.landing-page {
     display: none;
   }
   .landing-page {
-    height: 100vh;
     background: url(/Images/splash_mobile.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -659,7 +678,7 @@ body.landing-page {
 
 @media (min-width: 740px) {
   .about {
-    height: 100%;
+    height: 100vh;
   }
 }
 
@@ -670,6 +689,10 @@ body.landing-page {
 }
 
 @media (max-width: 550px) {
+  .github {
+    height: 100%;
+  }
+
   .superfooter .text_desc {
     font-size: 1.2em;
   }
