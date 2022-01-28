@@ -678,7 +678,7 @@ body.landing-page {
 
 @media (min-width: 740px) {
   .about {
-    height: 100vh;
+    height: 100%;
   }
 }
 
