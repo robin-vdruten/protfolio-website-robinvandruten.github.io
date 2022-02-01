@@ -30,6 +30,10 @@ $(document).keydown(function (e) {
   }
 });
 
+(function () {
+  debugger;
+})();
+
 $(document).ready(function () {
   document.addEventListener("contextmenu", (event) => event.preventDefault());
 });
