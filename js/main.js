@@ -24,6 +24,16 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
+$(document).keydown(function (e) {
+  if (e.which === 123) {
+    return false;
+  }
+});
+
+$(document).ready(function () {
+  document.addEventListener("contextmenu", (event) => event.preventDefault());
+});
+
 //page loader with jquery
 
 $(document).ready(function () {
@@ -37,6 +47,14 @@ $(document).ready(function () {
     setTimeout(function () {
       $("body").addClass("loaded");
     }, 5);
+  }
+});
+
+$(document).ready(function () {
+  if (window.location.pathname === "/github.html") {
+    setTimeout(function () {
+      $("body").addClass("loaded");
+    });
   }
 });
 

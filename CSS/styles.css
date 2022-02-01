@@ -599,10 +599,13 @@ body.landing-page {
 /* Github page ------*/
 
 .github {
-  height: 100vh;
+  height: 100%;
   background-color: #000000;
   background: -webkit-linear-gradient(to bottom, #000000, #23074d, #b4b4b4);
   background: linear-gradient(to bottom, #000000, #23074d, #8f8f8f);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .github-photo {
