@@ -24,20 +24,6 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
-$(document).keydown(function (e) {
-  if (e.which === 123) {
-    return false;
-  }
-});
-
-(function () {
-  debugger;
-})();
-
-$(document).ready(function () {
-  document.addEventListener("contextmenu", (event) => event.preventDefault());
-});
-
 //page loader with jquery
 
 $(document).ready(function () {
