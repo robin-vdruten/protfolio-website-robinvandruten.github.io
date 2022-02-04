@@ -58,19 +58,15 @@ $(document).ready(function () {
   if (window.location.pathname === "/github.html") {
     setTimeout(function () {
       $("body").addClass("loaded");
-    });
+    }, 5);
   }
 });
 
-// page loader
-
-(function () {
-  const bodyClasses = document.querySelector("body").classList;
-  if (document.cookie.indexOf("visited=true") === -1) {
+$(document).ready(function () {
+  if (window.location.pathname === "/contact.html") {
     setTimeout(function () {
-      const body = document.querySelector("body");
-      body.classList.toggle("loaded");
-    }, 700);
+      $("body").addClass("loaded");
+    }, 5);
   }
 });
 
