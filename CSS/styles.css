@@ -577,7 +577,6 @@ body.landing-page {
 }
 
 .contact-btn {
-  width: 85%;
   margin-top: 2em;
   border-radius: 4px;
   background-color: #ffffff;
@@ -877,6 +876,12 @@ textarea {
   background: #cc4949;
 }
 
+/* secret page */
+
+.secret {
+  flex-wrap: wrap;
+}
+
 @keyframes morph {
   0% {
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
@@ -898,6 +903,12 @@ textarea {
 
   .mobile-nav {
     visibility: hidden;
+  }
+}
+
+@media (min-width: 1250px) {
+  .project-row {
+    justify-content: space-between;
   }
 }
 
@@ -994,9 +1005,5 @@ textarea {
   .flex-dis {
     display: flex;
     flex-direction: unset;
-  }
-
-  .contact-btn {
-    width: 100%;
   }
 }
